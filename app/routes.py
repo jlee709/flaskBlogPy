@@ -6,6 +6,7 @@ from app import app
 def index():
     # sets use for tempaltes in template file and calls using render_
     user = {'username': 'Justin'}
+    # fake data to render
     posts =[
         {
         'author':{'username': 'Winky'},
